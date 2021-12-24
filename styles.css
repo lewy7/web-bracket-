@@ -1,0 +1,512 @@
+* {
+    font-family: 'poppins';
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+
+/* NAVBAR */
+
+.navbar-brand {
+    margin-left: 15px;
+}
+
+.nav-item {
+    margin: 0 15px;
+    font-weight: bold;
+}
+
+.navbar {
+    position: sticky;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 100;
+}
+
+
+/* TITLE SECTION */
+
+#title {
+    background-image: url(/images/computer.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 200px;
+    padding-left: 20%;
+    padding-right: 20%;
+    /* padding: 15% 9%; */
+}
+
+.container-r {
+    padding-bottom: 200px;
+    text-align: center;
+}
+
+.head-title {
+    color: rgb(255, 255, 255);
+    opacity: 100;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.subtitle-header {
+    color: white;
+    font-size: 40px;
+    padding-bottom: 30px;
+    font-weight: bold;
+}
+
+.header-btn {
+    font-weight: bold;
+}
+
+.card-para {
+    font-size: 20px
+}
+
+
+/* service */
+
+#service {
+    padding: 3% 9%;
+    background-color: white;
+}
+
+.subtitle-service {
+    font-weight: bold;
+    font-size: 35px;
+    text-align: center;
+    color: #007AF3;
+    padding-top: 64px;
+}
+
+.blue-line {
+    list-style: url(/images/blue-line.png);
+}
+
+.topic-service {
+    padding-top: 80px;
+    font-weight: bold;
+    color: black;
+    font-size: 20px;
+}
+
+h1 {
+    color: #007AF3;
+    font-weight: bold;
+}
+
+p {
+    color: #000000;
+    opacity: 41%;
+    font-size: 25px;
+}
+
+
+/* card boxes */
+
+.boxes-service {
+    padding: 52px 38px 60px 38px;
+    margin-bottom: 50px;
+    text-align: center;
+    /* margin-right: 20px; */
+    border-radius: 34px;
+}
+
+h3 {
+    color: #007AF3;
+    font-weight: bold;
+}
+
+.card-header {
+    background-color: transparent;
+}
+
+
+/* SKILLS */
+
+#skills {
+    background-color: #007AF3;
+    padding: 3% 9%;
+}
+
+.subtitle-skill {
+    font-weight: bold;
+    font-size: 35px;
+    text-align: center;
+    color: white;
+    padding-top: 64px;
+}
+
+.skill-topic {
+    padding-top: 80px;
+    font-weight: bold;
+    color: white;
+    font-size: 20px;
+}
+
+.red-line {
+    list-style: url(/images/red-line.png);
+}
+
+.skill-subheading {
+    color: white;
+}
+
+.skill-para {
+    color: #ffffff;
+    opacity: 60%;
+}
+
+.skill-tool {
+    background-color: white;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    text-align: center;
+    /* margin-right: 20px; */
+    border-radius: 18px;
+    /* padding-left: 10px; */
+}
+
+
+/* .skill-img {
+    width: 30%;
+    float: right;
+   
+} */
+
+.skill-box {
+    text-align: center;
+    padding-top: 40px;
+    /* background-color: hsl(0, 9%, 86%);
+    opacity: 50;
+    margin-bottom: 20PX; */
+}
+
+.card-title {
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.tools-item {
+    font-size: 20px;
+    font-weight: 400;
+    color: black;
+}
+
+
+/* PORTFOLIO */
+
+#portfolio {
+    padding: 3% 5%;
+    background-color: white;
+}
+
+.subtitle-portfolio {
+    font-weight: bold;
+    font-size: 35px;
+    text-align: center;
+    color: #007AF3;
+    padding-top: 64px;
+}
+
+.portfolio-topic {
+    padding-top: 80px;
+    font-weight: bold;
+    color: black;
+    font-size: 20px;
+}
+
+.image-corp {
+    border: 2px solid #007AF3;
+    margin-bottom: 30px;
+    width: 450px;
+}
+
+
+/* .image-port-2 {
+    background-image: url(/images/illustration.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+.image {
+    background-image: url(/images/web-design-best-practices-1024x512.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+.image-port-3 {
+    background-image: url(/images/3-Things-Great-Websites-Have-in-Common.png);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+} */
+
+.subheading {
+    font-weight: bold;
+    color: #BBBBBB;
+    opacity: 87%;
+}
+
+.heading {
+    font-weight: 600;
+}
+
+.para {
+    color: #707070;
+}
+
+.img-port-1 {
+    width: 100%;
+    height: 100%;
+}
+
+.img-port {
+    width: 100%;
+    height: 100%;
+}
+
+.web-develop-img {
+    width: 100%;
+    height: 100%;
+}
+
+.text {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+
+/* testimonial */
+
+#testimonial {
+    background-color: #3290acd8;
+    text-align: center;
+    color: white;
+}
+
+.testimonial-image {
+    border: transparent solid 1px;
+    border-radius: 100%;
+    width: 10%;
+    margin: 15px 0 25px;
+}
+
+.testimonial-text {
+    font-weight: bold;
+    font-size: 35px;
+}
+
+.carousel-item {
+    padding: 10% 25%;
+}
+
+.profile {
+    margin-top: 70px;
+}
+
+.profile-name {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+    padding-left: 20px;
+}
+
+
+/* press */
+
+#press {
+    background-color: #3290acd8;
+    text-align: center;
+    padding-bottom: 2%;
+}
+
+.press-logo {
+    width: 15%;
+    margin: 20px 50px 30px;
+    cursor: pointer;
+}
+
+
+/* ABOUT */
+
+#about {
+    background-color: #007AF3;
+    padding: 3% 9%;
+}
+
+.subtitle-about {
+    font-weight: bold;
+    font-size: 35px;
+    text-align: center;
+    color: white;
+    padding-top: 64px;
+}
+
+.subheader {
+    color: white;
+    padding-top: 50px;
+    font-size: 35px;
+}
+
+.sub-content {
+    color: white;
+    font-weight: 600;
+    font-size: 30px;
+}
+
+.content {
+    font-weight: 600;
+    color: #FFFFFF;
+    opacity: 60%;
+}
+
+
+/* contact */
+
+.contact {
+    margin-top: 5rem;
+    margin-bottom: 7rem;
+}
+
+.contact-item {
+    color: white;
+}
+
+.contact-info {
+    color: #ffffff9d;
+}
+
+p {
+    opacity: 100%;
+}
+
+.contact-no {
+    color: #FFFFFF;
+    opacity: 60%;
+}
+
+.contact-no:hover {
+    color: red;
+    opacity: 100%;
+}
+
+
+/* footer */
+
+#footer {
+    color: white;
+    text-align: center;
+    padding: 3% 0;
+}
+
+
+/* 
+.footer-item {
+    height: 50px;
+    width: 50px;
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    border: 3px solid #007AF3;
+    padding: 1% 1%;
+    transition: ease-in-out 0.2s;
+}
+
+.ending-icon {
+    font-size: 60%;
+    margin: 0;
+    color: #007AF3;
+}
+
+.footer-item:hover {
+    border-color: #007AF3;
+    opacity: 60%;
+    border: 3px solid #007AF3;
+}
+
+.round-item {
+    margin-left: 10px;
+} */
+
+.social-icon {
+    color: white;
+    background: #007AF3;
+    font-size: 1em;
+    border-radius: 50%;
+    line-height: 2.2em;
+    width: 2.1em;
+    height: 2.1em;
+    text-align: center;
+    display: inline-block;
+}
+
+li:hover {
+    transform: translateY(-4px);
+    transition: 0.3s;
+}
+
+
+/* .footer-icons {
+    text-align: center;
+}
+ */
+
+.email {
+    color: #007AF3;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.contact-1 {
+    font-weight: bold;
+    color: #007AF3;
+    opacity: 52%;
+    margin-top: 10px;
+    font-size: 24px;
+}
+
+.copyright {
+    font-weight: 500;
+    font-size: 20px;
+    color: #007AF3;
+    opacity: 52%;
+    margin-top: 10px;
+}
+
+@media (max-width: 1028px) {
+    #title {
+        text-align: center;
+    }
+    .press-logo {
+        width: 20%;
+    }
+    /* .subtitle-about,
+    .subheader,
+    .content,
+    .sub-content {
+        font-size: 150%;
+    } */
+    .footer-item {
+        padding: 1.5% 1%;
+        height: 40px;
+        width: 40px;
+    }
+    .ending-icon {
+        font-size: 60%;
+    }
+    .round-item {
+        margin-left: 5px;
+    }
+    .contact-1,
+    .copyright,
+    .email {
+        font-size: 100%;
+    }
+}
