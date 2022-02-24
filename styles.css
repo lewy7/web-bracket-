@@ -30,7 +30,7 @@ html {
 /* TITLE SECTION */
 
 #title {
-    background-image: url(/images/computer.jpg);
+    background: url('/images/computer.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     padding-top: 200px;
@@ -62,10 +62,6 @@ html {
     font-weight: bold;
 }
 
-.card-para {
-    font-size: 20px
-}
-
 
 /* service */
 
@@ -83,7 +79,7 @@ html {
 }
 
 .blue-line {
-    list-style: url(/images/blue-line.png);
+    list-style: url('images/blue-line.png');
 }
 
 .topic-service {
@@ -95,13 +91,13 @@ html {
 
 h1 {
     color: #007AF3;
-    font-weight: bold;
+    font-weight: 500
 }
 
 p {
     color: #000000;
     opacity: 41%;
-    font-size: 25px;
+    font-size: 20px;
 }
 
 
@@ -115,13 +111,18 @@ p {
     border-radius: 34px;
 }
 
-h3 {
-    color: #007AF3;
-    font-weight: bold;
+.card-header {
+    background-color: white;
 }
 
-.card-header {
-    background-color: transparent;
+.card-text {
+    text-transform: capitalize;
+    color: #007AF3;
+    font-weight: 600;
+}
+
+.card-para {
+    font-size: 16px
 }
 
 
@@ -148,7 +149,7 @@ h3 {
 }
 
 .red-line {
-    list-style: url(/images/red-line.png);
+    list-style: url('/images/red-line.png');
 }
 
 .skill-subheading {
@@ -188,6 +189,7 @@ h3 {
 .card-title {
     font-size: 25px;
     font-weight: 600;
+    text-transform: capitalize;
 }
 
 .tools-item {
@@ -357,11 +359,11 @@ h3 {
 .sub-content {
     color: white;
     font-weight: 600;
-    font-size: 30px;
+    font-size: 25px;
 }
 
 .content {
-    font-weight: 600;
+    font-weight: 500;
     color: #FFFFFF;
     opacity: 60%;
 }
@@ -392,7 +394,7 @@ p {
 }
 
 .contact-no:hover {
-    color: red;
+    color: #0a2e65;
     opacity: 100%;
 }
 
@@ -445,9 +447,10 @@ p {
     height: 2.1em;
     text-align: center;
     display: inline-block;
+    font-size: 120%;
 }
 
-li:hover {
+.list-inline-item:hover {
     transform: translateY(-4px);
     transition: 0.3s;
 }
@@ -508,5 +511,15 @@ li:hover {
     .copyright,
     .email {
         font-size: 100%;
+    }
+}
+
+@media (max-width: 414px) {
+    .testimonial-text {
+        font-size: 20px;
+        font-weight: 500;
+    }
+    .profile-name {
+        font-size: px;
     }
 }
